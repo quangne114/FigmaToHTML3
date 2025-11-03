@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  /* Default html có giá trì là 16px = 1rem */
+  /* Giảm 62.5% của 16px => 10px */
+  /* => Từ nay 1rem = 10px (dễ tính toán hơn) */
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Sora", sans-serif;
+}
