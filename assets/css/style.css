@@ -42,6 +42,23 @@ a {
 .btn:hover {
   opacity: 0.9;
 }
+
+.section-heading {
+  color: #10375c;
+  font-family: Sora;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.2; /* 120% */
+  letter-spacing: -1px;
+}
+
+.section-desc {
+  margin-top: 18px;
+  color: #575f66;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.67; /* 166.667% */
+}
 /* ================================== Header ==================================*/
 
 .header {
@@ -164,4 +181,84 @@ a {
 .hero__img {
   border-radius: 6px;
   object-fit: cover;
+}
+
+/* ================================== Services ==================================*/
+.services {
+  padding: 170px 0;
+  background-color: #fff;
+}
+
+.service__desc,
+.service__heading {
+  text-align: center;
+}
+
+.service__desc {
+  width: 468px;
+  margin: 0 auto;
+}
+
+.service__row {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.service__img {
+  width: 570px;
+  height: 570px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.service-item {
+  padding: 21px;
+  display: flex;
+  width: 470px;
+  height: 128px;
+  transition: 0.25;
+}
+
+.service-item:hover {
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.05);
+}
+
+.service-item:hover .service-item__icon {
+  color: #fff;
+  background: rgba(46, 128, 206, 1);
+}
+.service-item__icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background: rgba(239, 246, 253, 1);
+  box-shadow: 0 8px 16px 0 rgba(40, 155, 222, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 19px;
+  transition: 0.25s;
+}
+
+.service-item__heading {
+  color: #10375c;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.service-item__desc {
+  margin-top: 8px;
+  color: #575f66;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75; /* 175% */
+}
+
+.service__btn {
+  margin-top: 55px;
 }
